@@ -27,3 +27,33 @@ h1 {
   font-weight: 400;
   padding: 10px 12px;
 }
+
+form {
+  width: 400px;
+  height: 136px;
+  background-color: lightgray;
+  margin: 0 auto;
+  border-radius: 12px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  height: 35px;
+  border: none;
+  outline: none;
+}
+
+input:nth-child(2) {
+  background: #00005d;
+  color: white;
+}
+
+input:nth-child(2):hover {
+  cursor: pointer;
+}
