@@ -57,3 +57,19 @@ input:nth-child(2) {
 input:nth-child(2):hover {
   cursor: pointer;
 }
+
+#ansbox {
+  position: fixed;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#ansbox p::first-letter {
+  text-transform: capitalize;
+}
+
+#ansbox p {
+  font-weight: bold;
+  font-size: 1.2em;
+}
